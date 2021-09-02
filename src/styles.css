@@ -14,7 +14,8 @@ h1 {
 
 .container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  padding: 20px;
 }
 
 .link-bar {
@@ -28,9 +29,23 @@ a {
   padding: 0;
   font-style: italic;
 }
-
+p {
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 10px;
+  display: flex;
+  flex: 1;
+  max-width: 20%;
+  font-size: 18px;
+  line-height: 1.5;
+}
 img {
+  display: flex;
   width: 20%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 .footer {
   font-family: "Times New Roman", Times, serif;
